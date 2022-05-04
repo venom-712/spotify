@@ -32,10 +32,10 @@ function Right({ chooseTrack, spotifyApi }) {
   }, [accessToken]);
 
   return (
-    <section className="p-4 space-y-8 pr-8 flex-[0.2]">
+    <section className="hidden lg:block p-4 space-y-8 pr-8 lg:flex-[0.2]">
       <div className="flex space-x-2 items-center justify-between">
         {/* Icons */}
-        <div className="flex items-center space-x-4 border-2 border-[#262626] rounded-full h-12 py-3 px-4">
+        <div className="hidden lg:flex items-center space-x-4 border-2 border-[#262626] rounded-full h-12 py-3 px-4">
           <HiOutlineShieldCheck className="text-[#CCCCCC] text-xl" />
           <MdOutlineSettings className="text-[#CCCCCC] text-xl" />
           <div>
